@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nxthiringtask/counter/counter.dart';
+import 'package:nxthiringtask/features/main_user_screen/presentation/main_screen.dart';
 import 'package:nxthiringtask/l10n/l10n.dart';
 
 class App extends StatelessWidget {
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const CounterPage(),
+      home: const MainScreen(),
     );
   }
 }
