@@ -7,7 +7,7 @@ environment:
   sdk: ">=3.1.0 <4.0.0"
 
 dependencies:
-  bloc: ^8.1.2
+  adaptive_theme: ^3.6.0
   dartz: ^0.10.1
   dio: ^5.4.3+1
   equatable: ^2.0.5
@@ -18,6 +18,10 @@ dependencies:
     sdk: flutter
   get_it: ^7.6.7
   intl: ^0.18.0
+  # flutter_html: ^2.1.2
+  flutter_rating_bar: ^4.0.1
+  dotted_line: ^3.2.2
+  ticket_widget: ^1.0.2
 
 dev_dependencies:
   bloc_test: ^9.1.4
