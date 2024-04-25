@@ -4,8 +4,8 @@ import 'package:nxthiringtask/features/main_user_screen/data/data_sources/user_r
 import 'package:nxthiringtask/features/main_user_screen/domain/entities/user_reservation_entity.dart';
 import 'package:nxthiringtask/features/main_user_screen/domain/repositories/base_user_reservations_repository.dart';
 
-class ImplListHrEmployeeRepository implements BaseUserReservationsRepository {
-  ImplListHrEmployeeRepository(this._baseUserReservationDataSource);
+class UserReservationRepository implements BaseUserReservationsRepository {
+  UserReservationRepository(this._baseUserReservationDataSource);
   final BaseUserReservationDataSource _baseUserReservationDataSource;
   @override
   Future<Either<UserReservationEntity, AppError>> getReservationData() async {
